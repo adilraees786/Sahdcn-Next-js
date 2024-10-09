@@ -10,7 +10,7 @@ export default function Home() {
   return (
 
     <div>
-      <Navbar/>
+      <Navbar />
 
       <div className="flex flex-col items-center justify-center h-screen">
 
@@ -27,9 +27,12 @@ export default function Home() {
 
           <Button variant="destructive">Destructive</Button>
 
-        </div>
 
-        <ToolTips/>
+        </div>
+        <div className=" mt-5">
+        <ToolTips />
+        </div>
+        
       </div>
 
     </div>
