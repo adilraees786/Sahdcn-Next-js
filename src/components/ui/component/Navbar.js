@@ -28,7 +28,13 @@ export default function Navbar() {
               <Link href="/about" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">About</Link>
               <Link href="/services" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Services</Link>
               <Link href="/contact" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact</Link>
+              <div className="py-4 px-2 text-red-500 font-semibold hover:text-green-500 transition duration-300" >
+              <button className="">
+                Login
+              </button>
             </div>
+            </div>
+            
           </div>
           <div className="md:hidden flex items-center">
             <button className="outline-none mobile-menu-button" onClick={toggleMenu}>
