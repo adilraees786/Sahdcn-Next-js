@@ -38,7 +38,7 @@ export default function Navbar() {
             </div>
 
             <div className="py-4 px-2 text-red-500 font-semibold hover:text-green-500 transition duration-300" >
-              <Link href="/auth/signin">
+              <Link href="/signin">
                 Login
               </Link>
             </div>
