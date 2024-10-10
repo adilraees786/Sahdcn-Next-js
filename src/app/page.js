@@ -10,7 +10,6 @@ export default function Home() {
   return (
 
     <div>
-      <Navbar />
 
       <div className="flex flex-col items-center justify-center h-screen">
 
