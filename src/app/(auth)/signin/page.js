@@ -111,7 +111,7 @@ export default function Page() {
           <p className="text-sm text-gray-600">
             Don't have an account?{" "}
             <a
-              href="#"
+              href="/home"
               className="font-medium text-primary hover:text-primary-dark"
             >
               Sign up
