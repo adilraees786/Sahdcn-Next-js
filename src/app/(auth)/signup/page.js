@@ -16,6 +16,7 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { ArrowRight, Mail, Lock, User } from "lucide-react"
+import { Link } from "lucide-react"
 
 export default function Signup() {
   const [isLoading, setIsLoading] = useState(false)
@@ -99,7 +100,7 @@ export default function Signup() {
         </form>
         <p className="text-center mt-4 text-sm text-gray-600">
           Already have an account?{" "}
-          <a href="/login" className="text-purple-600 hover:underline">
+          <a href="/signin" className="text-purple-600 hover:underline">
             Log in
           </a>
         </p>

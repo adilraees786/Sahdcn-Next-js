@@ -14,6 +14,8 @@
 
 import { useState } from "react"
 import { Eye, EyeOff, Lock, Mail } from "lucide-react"
+import Link from 'next/link'
+
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -28,7 +30,7 @@ export default function Page() {
       <div className="bg-white rounded-2xl shadow-xl w-full max-w-md overflow-hidden">
 
 
-        
+
         <div className="p-8">
           <h2 className="text-3xl font-bold text-center mb-8 text-primary">
             Welcome Back
@@ -106,7 +108,9 @@ export default function Page() {
               </div>
             </div>
             <Button type="submit" className="w-full ">
-              Sign in
+              <Link href="/">
+                Sign in
+              </Link>
             </Button>
           </form>
         </div>

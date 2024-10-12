@@ -25,7 +25,7 @@ export default function Navbar() {
               className="h-8 w-fit" 
                 src={logo}
               />
-                <span className="font-semibold text-gray-500 text-lg">Logo</span>
+                {/* <span className="font-semibold text-gray-500 text-lg">Logo</span> */}
               </Link>}
 
             </div>

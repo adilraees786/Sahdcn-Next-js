@@ -11,14 +11,8 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <body>
                 <div className={"flex min-h-screen"}>
-                    <div className={"w-1/4 p-4 bg-slate-500"}>
-                        <Link href={"/"}>
-                            <Button className="bg-green-500 p-4 rounded-xl">
-                                Home
-                            </Button>
-                        </Link>
-                    </div>
-                    <div className={"w-[75%]"}>{children}</div>
+                   
+                    <div className={"w-[100%]"}>{children}</div>
                 </div>
             </body>
         </html>
