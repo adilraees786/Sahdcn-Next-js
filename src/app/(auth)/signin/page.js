@@ -26,6 +26,9 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 to-primary-100 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-xl w-full max-w-md overflow-hidden">
+
+
+        
         <div className="p-8">
           <h2 className="text-3xl font-bold text-center mb-8 text-primary">
             Welcome Back
@@ -102,7 +105,7 @@ export default function Page() {
                 </a>
               </div>
             </div>
-            <Button type="submit" className="w-full">
+            <Button type="submit" className="w-full ">
               Sign in
             </Button>
           </form>
@@ -111,7 +114,7 @@ export default function Page() {
           <p className="text-sm text-gray-600">
             Don't have an account?{" "}
             <a
-              href="/home"
+              href="/signup"
               className="font-medium text-primary hover:text-primary-dark"
             >
               Sign up
