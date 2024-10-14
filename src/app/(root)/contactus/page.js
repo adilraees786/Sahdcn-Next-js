@@ -35,14 +35,6 @@ export default function contactus () {
   }
 
 
-  const defaultProps = {
-    center: {
-        lat: 24.8607,
-        lng:  67.0011
-    },
-    zoom: 25
-};
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 to-primary-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -131,15 +123,7 @@ export default function contactus () {
           <div className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="h-64 bg-gray-300">
               {/* Replace this div with an actual map component */}
-              <div className="h-[80vh] w-11/12 mx-auto ">
-                <GoogleMapReact
-            
-                    defaultCenter={defaultProps.center}
-                    defaultZoom={defaultProps.zoom}
-                >
-
-                </GoogleMapReact>
-            </div>
+             
               <div className="h-full flex items-center justify-center text-gray-500">
                 Map Placeholder
               </div>
