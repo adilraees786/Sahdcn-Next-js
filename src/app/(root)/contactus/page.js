@@ -123,7 +123,9 @@ export default function contactus () {
           <div className="bg-white rounded-lg shadow-xl overflow-hidden">
             <div className="h-64 bg-gray-300">
               {/* Replace this div with an actual map component */}
-             
+             <h1>
+              Add Map Here
+             </h1>
               <div className="h-full flex items-center justify-center text-gray-500">
                 Map Placeholder
               </div>
