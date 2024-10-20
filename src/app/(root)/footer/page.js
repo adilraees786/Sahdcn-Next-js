@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function footer () {
   return (
-    <div>page</div>
+    <div>Add Here Footer</div>
   )
 }
